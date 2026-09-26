@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | B.Sc CS</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', sans-serif; }
+body { background:#f0f4ff; color:#222; }
+nav { background:#0a1931; color:white; padding:15px 30px; display:flex; justify-content:space-between; align-items:center; }
+nav h1 { font-size:20px; }
+nav a { color:white; text-decoration:none; margin-left:20px; font-size:14px; }
+.hero { background:linear-gradient(135deg, #0a1931, #185adb); color:white; text-align:center; padding:70px 20px; }
+.hero h2 { font-size:38px; margin-bottom:10px; }
+.hero p { font-size:18px; opacity:0.9; }
+.container { max-width:900px; margin:auto; padding:20px; }
+.card { background:white; border-radius:15px; padding:25px; margin-bottom:25px; box-shadow:0 5px 20px rgba(0,0,0,0.08); }
+.card h3 { color:#185adb; margin-bottom:15px; border-left:4px solid #185adb; padding-left:10px; }
+.details { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.details div { background:#f8f9ff; padding:12px; border-radius:8px; border:1px solid #e3e8ff; }
+.details b { display:block; color:#555; font-size:13px; }
+.details span { font-weight:600; font-size:16px; }
+.skills span { display:inline-block; background:#185adb; color:white; padding:7px 14px; border-radius:20px; margin:5px; font-size:13px; }
+footer { background:#0a1931; color:white; text-align:center; padding:15px; margin-top:20px; }
+.btn { display:inline-block; background:#185adb; color:white; padding:10px 22px; border-radius:25px; text-decoration:none; margin-top:15px; }
+@media(max-width:600px){ .details{grid-template-columns:1fr;} .hero h2{font-size:28px;} }
+</style>
+</head>
+<body>
+
+<nav>
+  <h1>MY PORTFOLIO</h1>
+  <div>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h2>Hi, I'm [YOUR NAME]</h2>
+  <p>B.Sc Computer Science Student</p>
+  <p>Viswabharathi Degree College</p>
+  <a href="#contact" class="btn">Contact Me</a>
+</section>
+
+<div class="container">
+
+  <div class="card" id="about">
+    <h3>About Me</h3>
+    <p>I'm a passionate B.Sc Computer Science student from Andhra Pradesh, currently studying at Viswabharathi Degree College affiliated to Krishna University. I am interested in Web Development, Programming and Software Technologies.</p>
+  </div>
+
+  <div class="card" id="education">
+    <h3>Academic Details</h3>
+    <div class="details">
+      <div><b>Course Name</b><span>B.Sc Computer Science</span></div>
+      <div><b>Academic Year</b><span>2024 - 2027</span></div>
+      <div><b>College Name</b><span>Viswabharathi Degree College</span></div>
+      <div><b>University</b><span>Krishna University</span></div>
+      <div><b>State</b><span>Andhra Pradesh (AP)</span></div>
+      <div><b>Portfolio URL</b><span>yourname-bsc-cs-2027</span></div>
+    </div>
+  </div>
+
+  <div class="card" id="skills">
+    <h3>Technical Skills</h3>
+    <div class="skills">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+      <span>Python</span>
+      <span>C Language</span>
+      <span>Java</span>
+      <span>DBMS</span>
+      <span>MS Office</span>
+    </div>
+  </div>
+
+  <div class="card" id="contact">
+    <h3>Contact</h3>
+    <p><b>Email:</b> yourname@gmail.com</p>
+    <p><b>Phone:</b> +91 9XXXXXXXXX</p>
+    <p><b>Location:</b> Vijayawada, AP</p>
+    <p><b>College:</b> Viswabharathi Degree College, Vijayawada</p>
+  </div>
+
+</div>
+
+<footer>
+  © 2024-2027 | B.Sc CS | Viswabharathi Degree College | Krishna University
+</footer>
+
+</body>
+</html>
